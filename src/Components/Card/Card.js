@@ -8,7 +8,12 @@ const Card = (props) => {
       <div className="card-body">
         <h5 className="card-title">{name}</h5>
         <p className="card-text">{price}$</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, doloremque, deserunt tempore dolores voluptatum quis molestias aliquam provident, consectetur corrupti nisi saepe aperiam exercitationem! Et, ut officiis atque labore fugiat ratione repellat ab vitae laborum?</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+          doloremque, deserunt tempore dolores voluptatum quis molestias aliquam
+          provident, consectetur corrupti nisi saepe aperiam exercitationem! Et,
+          ut officiis atque labore fugiat ratione repellat ab vitae laborum?
+        </p>
       </div>
     </div>
   );
